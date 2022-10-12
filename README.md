@@ -51,7 +51,7 @@ router.get('/', rejectUnauthenticated, (req, res) => {
 
 Do this for the secrets route to achieve these results:
 
-- [ ] An unauthenticated user visiting `http://localhost:5000/api/secrets` should get a `403` or `forbidden` error instead of seeing the secrets.
+- [x] An unauthenticated user visiting `http://localhost:5000/api/secrets` should get a `403` or `forbidden` error instead of seeing the secrets.
 - [ ] A user like `Admiral Greer` with password `tuna` should still be able to visit `http://localhost:3000/#/secrets` to see all of the secrets.
 
 #### No Secrets Above Clearance Level (Authorization)
