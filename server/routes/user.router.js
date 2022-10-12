@@ -37,6 +37,8 @@ router.post('/register', (req, res, next) => {
 // this middleware will run our POST if successful
 // this middleware will send a 404 if not successful
 router.post('/login', userStrategy.authenticate('local'), (req, res) => {
+  // console.log(req.user);
+  // const check = encryptLib.comparePassword()
   res.sendStatus(200);
 });
 
