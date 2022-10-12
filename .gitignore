@@ -5,6 +5,8 @@
 # Build directories for Front-End Assets
 build/
 
+
+.env
 # Logs
 logs
 *.log
